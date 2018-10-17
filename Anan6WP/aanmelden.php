@@ -28,7 +28,7 @@ function fDNAanmelden($atts, $content = '', $tag){
     $html .= '<label><input type="radio" name="wie" value="M">Mijzelf</label>';
     $html .= '<label><input type="radio" name="wie" value="A">Iemand die ik begeleid</label></div></div>';
     $html .= '<div class="entry">';
-    $html .= '<label class="red" for="aanEmail">E-mailadres aanmelder</label><input type="text" name="email" id="dnEmail" placeholder="Vergeet niet onze privayverklaring te accoderen." class="required formatEmail"><button id="dnSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
+    $html .= '<label class="red" for="aanEmail">E-mailadres aanmelder</label><input type="text" name="email" id="dnEmail" placeholder="Vergeet niet onze privacyverklaring te accoderen." class="required formatEmail"><button id="dnSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
     $html .= '<p id="dnMessage"></p></form>';
 
 
