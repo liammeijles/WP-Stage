@@ -10,3 +10,9 @@
 #labeleen input{
   margin-left: 2%;
 }
+label{
+  font-weight: 100;
+}
+legend{
+  font-weight: 700;
+}
