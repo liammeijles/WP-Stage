@@ -1,7 +1,5 @@
 # Contributor Covenant Code of Conduct
 
-# Contributor Covenant Code of Conduct
-
 Ons doel
 Wij bij WP-Stage proberen altijd onze best de doen en zoveel mogelijk te leren.
 
