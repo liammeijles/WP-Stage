@@ -1,3 +1,2 @@
 # WP-Stage
-Een algemene repository voor Liam en Parsa.
-Dit is een compatibility-check.
+Een algemene repository voor Liam en Parsa hun stage-projecten.
