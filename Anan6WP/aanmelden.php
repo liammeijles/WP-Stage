@@ -14,9 +14,11 @@ Text Domain:  wporg
 add_shortcode('dnAanmelden','fDNAanmelden');
 //perform the shortcode output
 function fDNAanmelden($atts, $content = '', $tag){
-     $html  = '<link href="/wp-content/plugins/aanmelden/public/CSS/style.css" rel="stylesheet" type="text/css" />';
+
+    $html  = '<link href="/wp-content/plugins/aanmelden/public/CSS/style.css" rel="stylesheet" type="text/css" />';
     $html .= '<script src="/wp-content/plugins/aanmelden/public/js/homeAanmelden.js" type="text/javascript"></script>';
-     $html .= '<form action="#">';
+
+    $html .= '<form action="#">';
     $html .= '<legend>Aanmeldingsformulier deelnemer</legend>';
     $html .= '<div class="entry">';
     $html .= '<label for="dnAkkoord"><strong>NB.</strong> Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
@@ -28,22 +30,13 @@ function fDNAanmelden($atts, $content = '', $tag){
     $html .= '<div class="entry">';
     $html .= '<label class="red" for="aanEmail">E-mailadres aanmelder</label><input type="text" name="email" id="dnEmail" placeholder="Vergeet niet onze privayverklaring te accoderen." class="required formatEmail"><button id="dnSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
     $html .= '<p id="dnMessage"></p></form>';
-     return $html;
+
+
+    return $html;
 }
-//Shortcut
-add_shortcode('vwAanmelden', 'fVWAanmelden');
- function fVWAanmelden() {
-    $html  = '<link href="/wp-content/plugins/aanmelden/public/CSS/style.css" rel="stylesheet" type="text/css" />';
-    $html .= '<script src="/wp-content/plugins/aanmelden/public/js/homeAanmelden.js" type="text/javascript"></script>';
-     $html .= '<form action="#">';
-    $html .= '<legend>Aanmeldingsformulier deelnemer</legend>';
-    $html .= '<div class="entry">';
-    $html .= '<label for="dnAkkoord"> NB. Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
-    $html .= '<div class="entry">';
-    $html .= '<div>';
-    $html .= '<div class="entry">';
-    $html .= '<label class="red" for="aanEmail">E-mailadres aanmelder</label><input type="text" name="email" id="dnEmail" placeholder="Vergeet niet onze privacyverklaring te accoderen." class="required formatEmail"><button id="dnSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
-    $html .= '<p id="dnMessage"></p></form>';
-     return $html;
-}
-?> 
+
+/*function fVWAanmelden() {
+    
+}*/
+
+?>
