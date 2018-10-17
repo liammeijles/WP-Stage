@@ -18,7 +18,7 @@ Wat we NIET toleren:
 * Racisme
 * Spam
 * Hacken
-* Niet luisteren naar wat het team vraagt aan jouw
+* Niet luisteren naar wat het team vraagt aan jou.
 
 Wat er van u wordt verwacht:
 Van u wordt verwacht dat u zichzelf altijd 100 procent inzet en uw best doet voor het team, we willen dat u altijd bereid bent
