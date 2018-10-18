@@ -1,12 +1,12 @@
 #vwSubmit{
   margin-top: 3%;
 }
-#nb{
+#nb, #labeleen{
   font-size: 10px;
 }
-#labeleen{
+/*#labeleen{
   font-size: 10px;
-}
+}*/
 #labeleen input{
   margin-left: 2%;
 }
@@ -15,4 +15,13 @@ label{
 }
 legend{
   font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 3%
+}
+form {
+  width: 80%;
+}
+#dnAkkoord {
+  padding: 1%;
+  margin: 1%;
 }

@@ -285,7 +285,7 @@ div#interform .tfive input {
 }
 
 div#interform .radio label, div#interform .radio input { 
-  width:auto; 
+  /*width: auto;*/ 
   display: inline; 
   margin-right:8px; 
   cursor:pointer; 
