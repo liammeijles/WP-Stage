@@ -25,3 +25,9 @@ form {
   padding: 1%;
   margin: 1%;
 }
+#dnSubmit {
+  margin-top: 3%;
+}
+#dnEmail {
+  margin: 2% 0 2% 0;
+}
