@@ -46,5 +46,5 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
     $html .= '<p id="dnMessage"></p></form>';
      return $html;
 }
-echo "hoi 1";
+echo "doe-het";
 ?> 
