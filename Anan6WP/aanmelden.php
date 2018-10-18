@@ -38,12 +38,12 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
     $html .= '<form action="#">';
     $html .= '<legend>Aanmeldingsformulier vrijwilliger:</legend>';
     $html .= '<div class="entry">';
-    $html .= '<label for="dnAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
+    $html .= '<label for="vwAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
     $html .= '<div class="entry">';
     $html .= '<div>';
     $html .= '<div class="entry">';
-    $html .= '<label class="red" for="aanEmail">E-mailadres vrijwilliger:</label><input type="text" name="email" id="dnEmail" placeholder="Email" class="required formatEmail"><button id="dnSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
-    $html .= '<p id="dnMessage"></p></form>';
+    $html .= '<label class="red" for="aanEmail">E-mailadres vrijwilliger:</label><input type="text" name="email" id="vwEmail" placeholder="Email" class="required formatEmail"><button id="vwSubmit" type="submit" disabled="disabled">Aanmelden</button></div>';
+    $html .= '<p id="vwMessage"></p></form>';
     return $html;
 }
 ?> 

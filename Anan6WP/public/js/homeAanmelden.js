@@ -40,7 +40,7 @@ function IsEmail(email) {
       }
       return false;
     });
-    
+    //Vanaf hier (regel 43 t/m 65 doet ie t niet)
     $("#aanmelden").on('click', '#vwSubmit', function() {  
       if(IsEmail($('#vwEmail').val())){
         
@@ -51,7 +51,8 @@ function IsEmail(email) {
         }, function(oResult) {
           if(oResult.code == 1){
             $('#vwMessage').html(oResult.message);
-          }else{
+          }
+          else{
             $('#vwMessage').html(oResult.message).addClass("error"); 
 
           }
