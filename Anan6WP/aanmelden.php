@@ -35,10 +35,10 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
  function fVWAanmelden() {
     $html  = '<link href="/wp-content/plugins/aanmelden/public/CSS/style.css" rel="stylesheet" type="text/css" />';
     $html .= '<script src="/wp-content/plugins/aanmelden/public/js/homeAanmelden.js" type="text/javascript"></script>';
-    $html .= '<form action="#">';
+    $html .= '<form id="vwAanmelden" action="#">';
     $html .= '<legend>Aanmeldingsformulier vrijwilliger:</legend>';
     $html .= '<div class="entry">';
-    $html .= '<label for="vwAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
+    $html .= '<label for="vwAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="vwAkkoord" name="vwAkkoord" value="OK"></label></div>';
     $html .= '<div class="entry">';
     $html .= '<div>';
     $html .= '<div class="entry">';
@@ -46,4 +46,5 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
     $html .= '<p id="vwMessage"></p></form>';
     return $html;
 }
+
 ?> 
