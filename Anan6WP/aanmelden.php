@@ -35,6 +35,8 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
  function fVWAanmelden() {
     $html  = '<link href="/wp-content/plugins/aanmelden/public/CSS/style.css" rel="stylesheet" type="text/css" />';
     $html .= '<script src="/wp-content/plugins/aanmelden/public/js/homeAanmelden.js" type="text/javascript"></script>';
+    
+    
     $html .= '<form action="#">';
     $html .= '<legend>Aanmeldingsformulier vrijwilliger</legend>';
     $html .= '<div class="entry">';
