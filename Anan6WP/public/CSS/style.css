@@ -18,4 +18,10 @@ legend{
   font-size: 18px;
   padding-bottom: 3%
 }
-form {width: 80%;}
+form {
+  width: 80%;
+}
+#dnAkkoord {
+  padding: 1%;
+  margin: 1%;
+}

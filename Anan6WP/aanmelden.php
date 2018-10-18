@@ -19,7 +19,7 @@ function fDNAanmelden($atts, $content = '', $tag){
      $html .= '<form action="#">';
     $html .= '<legend>Aanmeldingsformulier deelnemer</legend>';
     $html .= '<div class="entry">';
-    $html .= '<label for="dnAkkoord">NB. Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
+    $html .= '<label for="dnAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Deze kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
     $html .= '<div class="entry">';
     $html .= '<label for="wie">De aanvraag betreft:</label>';
     $html .= '<div>';
@@ -38,7 +38,7 @@ add_shortcode('vwAanmelden', 'fVWAanmelden');
      $html .= '<form action="#">';
     $html .= '<legend>Aanmeldingsformulier vrijwilliger</legend>';
     $html .= '<div class="entry">';
-    $html .= '<label for="dnAkkoord"> NB. Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
+    $html .= '<label for="dnAkkoord">Voordat je de aanmelding start, is het van belang dat je kennis neemt van en akkoord gaat met onze privacyverklaring. Die kun je <a href="#">hier</a> lezen en hier accorderen<input type="checkbox" id="dnAkkoord" name="dnAkkoord" value="OK"></label></div>';
     $html .= '<div class="entry">';
     $html .= '<div>';
     $html .= '<div class="entry">';
