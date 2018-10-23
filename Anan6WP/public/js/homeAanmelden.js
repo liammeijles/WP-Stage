@@ -43,7 +43,7 @@ function IsEmail(email) {
       return false;
     });
 
-    $("#vwAanmelden").on('click', '#vwSubmit', function() {  
+    $("#vwAanmelden", "#dnAanmelden").on('click', '#vwSubmit', function() {  
       console.log("hoi");
       if(IsEmail($('#vwEmail').val())){
         
